@@ -16,7 +16,7 @@ class Alarm(threading.Thread):
                 if (now.tm_hour == self.hours and now.tm_min == self.minutes):
                     time.localtime()
                     print('Вставаааай!!!')
-                    os.popen(r'D:\Development\Udemy\The Weeknd - False Alarm.mp3')
+                    os.startfile('путь к файлу формата .mp3')
                     return
         except:
             return
