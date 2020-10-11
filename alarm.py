@@ -32,4 +32,4 @@ alarm_MM = input("Введите минуту, в который вы хотит
 print(f'Вы захотели проснуться в {alarm_HH}:{alarm_MM}')
 
 alarm = Alarm(alarm_HH, alarm_MM)
-alarm.start()
+alarm.run()
