@@ -13,7 +13,7 @@ class Alarm(threading.Thread):
         try:
             while self.keep_running:
                 now = time.localtime()
-                if (now.tm_hour == self.hours and now.tm_min == self.minutes):
+                if now.tm_hour == self.hours and now.tm_min == self.minutes:
                     time.localtime()
                     print('Вставаааай!!!')
                     os.startfile('путь к файлу формата .mp3')
