@@ -1,2 +1,2 @@
 # Alarm
-Простой будильник с использованием потоков
+A simple alarm clock using threads
