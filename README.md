@@ -7,7 +7,7 @@ You need Python3 to run scripts.
 Download the code from GitHub.
 
 ```
-git clone 
+git clone https://github.com/kutuzov13/Alarm.git
 ```
 
 ### Run
