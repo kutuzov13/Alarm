@@ -1,9 +1,11 @@
 # Alarm
-Будильник для пробуждения!
+
+Alarm clock to wake up!
 
 ### Install
 
 You need Python3 to run scripts.
+
 Download the code from GitHub.
 
 ```
